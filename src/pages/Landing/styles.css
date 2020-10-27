@@ -1,0 +1,53 @@
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+    min-width: 700px;
+
+    color: var(---color-primary);
+    text-align: center;
+}
+
+#page-landing #page-landing-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-landing #page-landing-content .title {
+    width: 90vw;
+    max-width: 700px;
+}
+
+#page-landing #page-landing-content .title h1 {
+    font-weight: 700;
+    line-height: 8.6rem;
+}
+
+#page-landing #page-landing-content .title h2 {
+    font-weight: 300;
+}
+
+#page-landing #page-landing-content .title .programmer-image  {
+    width: 700px;
+}
+
+#page-landing #page-landing-content .presentation {
+    background-color: var(--color-secondary);
+    color: var(--color-text-in-primary);
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-landing #page-landing-content .presentation h3 {
+    line-height: 5.4rem;
+}
+
+
+#page-landing #page-landing-content .presentation .presentation-text {
+    width: 90vw;
+    max-width: 700px;
+}
