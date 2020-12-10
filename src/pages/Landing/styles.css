@@ -1,7 +1,6 @@
 #page-landing {
     width: 100vw;
     height: 100vh;
-    min-width: 700px;
 
     color: var(---color-primary);
     text-align: center;
@@ -21,7 +20,7 @@
 
 #page-landing #page-landing-content .title h1 {
     font-weight: 700;
-    line-height: 8.6rem;
+    margin: 10px 10px;
 }
 
 #page-landing #page-landing-content .title h2 {
@@ -29,7 +28,8 @@
 }
 
 #page-landing #page-landing-content .title .programmer-image  {
-    width: 700px;
+    width: 500px;
+    max-width: 90vw;
 }
 
 #page-landing #page-landing-content .presentation {
@@ -37,6 +37,7 @@
     color: var(--color-text-in-primary);
 
     width: 100vw;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,4 +51,65 @@
 #page-landing #page-landing-content .presentation .presentation-text {
     width: 90vw;
     max-width: 700px;
+}
+
+#page-landing #page-landing-content .tech {
+    width: 85%;
+    margin-top: -50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+    #page-landing #page-landing-content .tech {
+        flex-direction: column;
+    }
+}
+
+#page-landing #page-landing-content .tech .card {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    padding: 5px 5px 5px 5px;
+
+    background-color: white;
+    border: 1px solid var( --color-secondary);
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    #page-landing #page-landing-content .tech .card {
+        margin-bottom: 10px;
+    }
+}
+
+#page-landing #page-landing-content .tech .card h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#page-landing #page-landing-content .tech .card .groups {
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#page-landing #page-landing-content .tech .card .groups .tech-group h4 {
+    color: var( --color-secondary);
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+
+#page-landing #page-landing-content .tech .card .groups .tech-group ul {
+    list-style: none;
+}
+
+#page-landing #page-landing-content .tech .card .groups .tech-group li {
+    font-size: 1.8rem;
 }
