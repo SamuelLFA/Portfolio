@@ -8,7 +8,7 @@ function Landing() {
         <div id="page-landing">
             <div id="page-landing-content">
                 <div className="title">
-                    <h1>eu sou um paçoca</h1>
+                    <h1>Back-end Developer</h1>
                     <h2>I develop and create simple and smart things that make something easier</h2>
 
                     <img
